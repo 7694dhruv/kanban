@@ -87,7 +87,7 @@ export function RegisterForm({ onSwitchToLogin, onSuccess }: RegisterFormProps) 
         label="Full Name"
         type="text"
         name="name"
-        placeholder="Dhruv Patel"
+        placeholder="Your full name"
         autoComplete="name"
         value={formData.name}
         onChange={handleChange}
